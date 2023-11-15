@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbarSection{
+    display: flex;
+    color: white;
+    background-color: #22092C;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+li{
+   list-style: none;
+}
+/* navbar end  */
+#bannerSection{
+    background-image: url(./banner.png);
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#bannerSection h1{
+    font-size: 34px;
+    position: absolute;
+    top:39%;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 15px;
+    transform: rotate(270deg);
+    box-shadow: 0 0 20px 0 gray;
+}
+/* about us start  */
+#aboutSection{
+    padding: 20px;
+}
+#aboutSection>h1{
+    font-size: 54px;
+    color: #872341;
+}
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+#aboutTextDiv>h1{
+    font-size: 44px;
+}
+#aboutTextDiv>p{
+    font-size: 24px;
+    text-align: justify;
+    line-height: 32px;
+}
+#aboutTextDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #BE3144;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 gray;
+}
+#aboutTextDiv>button:hover{
+    background-color: #8a1f2d; 
+    transition: 1s; 
+}
+#aboutImageDiv>img{
+height: 500px;
+border: 5px solid #F05941;
+border-radius: 50%;
+box-shadow: 0 0 20px 0 gray;
+}
