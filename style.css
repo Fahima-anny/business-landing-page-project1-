@@ -80,3 +80,76 @@ border: 5px solid #F05941;
 border-radius: 50%;
 box-shadow: 0 0 20px 0 gray;
 }
+/* shop section started  */
+#shopSection{
+    padding: 20px;
+}
+#shopSection>h1{
+    font-size: 54px;
+    color: #872341;
+}
+#shopSectionMainDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.shopSectionCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    box-shadow: 0 0 30px 10px rgb(204, 204, 204);
+}
+.shopSectionCard:hover{
+    transition: .4s ease-in-out;
+    background-color: aliceblue;
+}
+.cardImageDiv>img{
+    width: 100%;
+}
+.cardTextDiv{
+    padding: 20px;
+}
+.cardTextDiv>h3{
+    color: #BE3144;
+    font-size: 28px;
+}
+.cardTextDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #F05941;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 gray;
+}
+.cardTextDiv>button:hover{
+    background-color: #c33e29; 
+    transition: 1s; 
+}
+/* review section started */
+#reviewSection{
+    padding: 20px;
+}
+#reviewSection>h1{
+    font-size: 54px;
+    color: #872341;
+}
+#reviewSectionMainDiv{
+    display: flex;
+    gap: 50px;
+}
+.reviewSectionCard{
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #872341 ;
+}
+.reviewSectionCard>img{
+    border-radius: 50%;
+    height: 150px;
+}
+.reviewSectionCard>h2{
+    color: lemonchiffon;
+}
